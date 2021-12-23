@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.onTick": {
+            "timeline": {
+                "0.0": [
+                    "/gamerule functioncommandlimit 10000",
+                    "/function badman/asset/setup",
+                    "/function badman/main",
+                    "/gamerule commandblockoutput false",
+                    "/gamerule showcommandfeedback false",
+                    "/gamerule chaincommandlimit 10000",
+                    "/function badman/alwaysactivemodules/anticbe",
+                    "/function badman/alwaysactivemodules/antigmc",
+                    "/function badman/alwaysactivemodules/autolagclear",
+                    "/function badman/alwaysactivemodules/bottombedrock",
+                    "/function badman/alwaysactivemodules/hotbarmessage",
+                    "/function badman/alwaysactivemodules/moderating",
+                    "/function badman/alwaysactivemodules/timeplayed",
+                    "/function badman/alwaysactivemodules/timeplayedtrackerconverter",
+                    "/function badman/alwaysactivemodules/worldborder"
+                ]
+            },
+            "animation_length": 0.01,
+            "loop": true
+        }
+    }
+}
